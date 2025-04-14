@@ -236,6 +236,7 @@ dependencies = [
  "anyhow",
  "dotenvy",
  "sqlx",
+ "thiserror",
  "tokio",
  "tracing",
  "tracing-subscriber",
