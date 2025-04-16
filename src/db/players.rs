@@ -1,6 +1,8 @@
+use serde::Serialize;
 use sqlx::SqlitePool;
 use crate::app_error::AppError;
 
+#[derive(Debug, Serialize)]
 pub struct Player {
     pub id: Option<i64>,
     pub name: String,
