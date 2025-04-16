@@ -1,4 +1,5 @@
 mod app_error;
+mod db;
 
 use app_error::AppError;
 use dotenvy::dotenv;
